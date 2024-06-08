@@ -1,0 +1,45 @@
+{
+  "name": "redux-tk-snippets",
+  "displayName": "Redux toolkit snippets",
+  "description": "Redux snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonmarro/vscode-snippets.git"
+  },
+  "publisher": "nelsonmarro",
+  "version": "0.2.1",
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./redux-ts.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./redux-ts.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./redux-ts.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./redux-ts.code-snippets"
+      }
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
+}

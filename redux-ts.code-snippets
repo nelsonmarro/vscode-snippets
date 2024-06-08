@@ -2,7 +2,7 @@
   "Create Redux Slice (Ts)": {
     "prefix": "redux-slice-ts",
     "body": [
-      "import { createSlice } from '@reduxjs/toolkit';                                ",
+      "import { createSlice } from '@reduxjs/toolkit';                                      ",
       "",
       "export const templateSlice = createSlice({                                           ",
       "    name: 'name',                                                                    ",
@@ -18,7 +18,7 @@
       "",
       "",
       "// Action creators are generated for each case reducer function ",
-      "export const { increment } = templateSlice.actions;              "
+      "export const { increment } = templateSlice.actions;              ",
     ],
     "description": "Create a Redux Slice in TypeScript"
   }
